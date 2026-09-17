@@ -1,0 +1,7 @@
+body{overflow-x:hidden}
+@media(min-width:741px){
+  .hero{padding-top:120px;min-height:720px;align-items:start}
+}
+@media(max-width:740px){
+  .solution-grid{grid-template-columns:minmax(0,1fr) minmax(0,1fr)}
+}
